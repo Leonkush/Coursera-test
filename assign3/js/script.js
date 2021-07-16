@@ -37,12 +37,3 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 })(window);
 
-
-
-(function fn(){
-  
-  d=document.getElementById('1').value;
-  console.log(d)
-
-  }
-  )
