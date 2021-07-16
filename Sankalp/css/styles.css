@@ -1,0 +1,274 @@
+body{
+	background-color: white;
+	color: grey;
+	font-size:12px ;
+}
+* {
+ 			 box-sizing: border-box;
+		}
+
+		.car{
+			position: relative;
+			left: 70%;
+			width:30%;
+			color: white;
+			background-color: #006699;
+			margin: 1px;
+			font: 40px;
+			padding: 0px;
+			font-family: sans-serif;
+
+
+		}
+		p{
+			
+			background-color: #F0F0F0;
+			width: 100%;
+			height: 200px;
+			color: grey;
+			margin: 0px;
+			font-size: 12px;
+
+			position: relative;
+
+		}
+		.row {
+			width: 100%;
+			background-color: white;
+		}
+		@media (min-width: 992px) {
+			.col-lg-4{
+				width: 31%;
+				float: left;
+				border: 1px ;
+				margin: 1%;
+				overflow: hidden;
+				padding: 0px;
+				
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-2{
+				width: 48%;
+				float: left;
+				border: 1px ;
+				margin: 1%;
+				padding: 0px;
+				overflow: hidden;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-sd-1{
+				width: 99%;
+				float: left;
+				border: 1px ;
+				margin: .5%;
+				padding: 0px;
+				overflow: hidden;
+
+			}
+		}
+#header-nav{
+	color: white;
+	background-color: #F0F0F0;
+	border-radius: 0;
+	border: 0;
+
+}
+
+#logo-img{
+	opacity: .8;
+	width: 225px;
+	height: 115px;
+	margin: 0px;
+}
+
+.navbar-brand{
+	padding-top: 25px
+}
+
+.navbar-brand h1{
+	text-align: center; 
+	font-size: 2.0em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 20px;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+
+}
+
+.navbar-brand span{
+	vertical-align: middle;
+	font-size: .7em;
+	margin-left: 20px;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: grey;
+}
+
+#phone a{
+	margin-top: 10px;
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 0px;
+}
+#phone div{
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-haeder button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid grey;
+}
+
+.navbar-haeder button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}	
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+}
+
+
+    /* Footer */
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 25px;
+}
+#hours #address{
+	line-height: 2;
+	margin-bottom: 20px;
+}
+#hours> span, #address>span{
+	font-size: 1.3em;
+}
+#address article{
+	color: green;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials{
+	font-style: italic;
+}
+#testimonials article:nth-child(2){
+	margin-top: 25px;
+}
+ .panel-footer section {
+ 	margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+  	margin-top: 15px;
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+  #fast{
+  	color: #006699;
+  	font-size: 1.2em;
+  }
+
+
+/*  maruti*/
+  .category-tile { 
+  position: relative;
+
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin: 3%;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+/*  vehicle*/
+  .vehicle { 
+  position: relative;
+
+  overflow: hidden;
+
+  margin: 0 auto 15px;
+}
+.vehicle span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#field{
+	background-color: #E8E8E8;
+}
+h5, #head{
+	color: #337ab7;
+  text-shadow: 1px 1px 1px #222
+  }
